@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans';
+    background-color: #F2F2F2;
+}
+
+.banner {
+    border-bottom: solid 2px black;
+    background-color: white;
+}
+
+.tekst{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.titel{
+    font-size: 52px;
+    font-weight: bolder;
+    margin-left: 450px;
+}
+
+.balk {
+    width: 150px;
+    height: 5px;
+    border: solid 1px #FF4367;
+    background-color: #FF4367;
+    margin-left: 450px;
+}
+
+.formulier {
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+input[type=text], input[type=email], input[type=date], input[type=tel], input[type=time]{
+    width: 30%;
+}
+
+input[type=submit] {
+    width: 62%;
+    height: 40px;
+    background-color: #FF4367;
+    border: solid 1px #FF4367;
+    color: white;
+    box-shadow: 2px 5px #C92447;
+}
+
+.footer{
+    position: relative;
+    width: 700px;
+    height: 100px;
+}
+
+.logo{
+    position: absolute;
+    top: 60px;
+    left: 350px;
+}
+
+.bezoekadres {
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    font-size: 12px;
+}
+
+.postadres {
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    font-size: 12px;
+} 
+
+
+
+
